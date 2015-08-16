@@ -174,24 +174,6 @@ public class Home extends javax.swing.JFrame {
 
     private void cmbExecuteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmbExecuteActionPerformed
 
-        //        DefaultTableModel dft = new DefaultTableModel();
-        //        dft.addColumn("ab");
-        //        tblResult.setModel(dft);
-        //c.createStatement().executeQuery("use classicmodels");
-
-
-        /*
-         * 
-         * create
-         * drop
-         * alter
-         * use
-         * insert
-         * update
-         * delete
-         * drop
-        
-         */
         String sql = txtSQL.getText();
         if (sql.equals("who did this")) {
             JOptionPane.showMessageDialog(null, "Author : Rumesh Eranga Hapuarachchi\nDJClans\nUniversity of Colombo School of Computing","SQL Monitor",1);
@@ -260,25 +242,6 @@ public class Home extends javax.swing.JFrame {
 
     private void execute(String sql) {
         try {
-            //        DefaultTableModel dft = new DefaultTableModel();
-            //        dft.addColumn("ab");
-            //        tblResult.setModel(dft);
-            //c.createStatement().executeQuery("use classicmodels");
-
-
-            /*
-             * 
-             * create
-             * drop
-             * alter
-             * use
-             * insert
-             * update
-             * delete
-             * drop
-            
-             */
-
             if (sql.toLowerCase().startsWith("create")
                     || sql.toLowerCase().startsWith("drop")
                     || sql.toLowerCase().startsWith("alter")
